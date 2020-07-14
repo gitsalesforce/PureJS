@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.col{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+   /* animation: color-animation 3s infinite linear alternate;*/
+}
+/*Animation by css Keyframes
+@keyframes color-animation {
+    0% {
+       background: #ad1457;
+    }
+    50% {
+       background: #6a1b9a;
+    } 
+    100% {
+       background: #bbdefb
+    } 
+ }
+*/
+#colorcode{
+    font-size: 30px;
+}
+#Unique{
+    font-size: 30px;
+    padding: 20px; 
+}
+.convertinfo , .info, .maps{
+    display: flex;
+    justify-self: center;
+    
+}
+.convertinfo *,.maps *,.info *{
+    padding: 10px;
+}
